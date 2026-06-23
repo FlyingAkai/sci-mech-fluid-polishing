@@ -1,0 +1,29 @@
+{
+  "skill_name": "sci-mech-fluid-polishing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请用 sci-mech-fluid-polishing 润色下面这段 Results，偏 Additive Manufacturing 风格。要求不保留第一人称，给出润色版、中文解释、术语检查表和审稿人风险检查。随着入口速度增加，喷嘴出口处剪切速率明显升高，中心区域变化不大，说明壁面附近流动更剧烈。同时，沉积丝材的宽度逐渐减小，层间变形更加明显。",
+      "expected_output": "A polished SCI-style English Results paragraph with Chinese explanation, terminology audit table, and reviewer-risk notes. The output should avoid first-person wording and avoid unsupported mechanisms.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Use sci-mech-fluid-polishing to analyse a velocity contour and write Results and Discussion text. The figure shows that the high-velocity region is concentrated near the nozzle centerline, while the velocity decreases near the wall. At higher inlet velocity, the wall-adjacent shear region becomes more pronounced.",
+      "expected_output": "A figure-analysis response with Key Observations, Possible Mechanism, SCI-style Results Text, Optional Discussion Text, terminology audit, and reviewer-risk notes.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Use sci-mech-fluid-polishing to check whether these terms are suitable for a manuscript on extrusion-based 3D printing of non-Newtonian fluids: Newton fluid, speed field, stress cloud map, fluidity, heat transfer capability.",
+      "expected_output": "A terminology audit that replaces nonstandard terms with Newtonian fluid, velocity field, stress contour or stress distribution, context-appropriate flowability/rheological behavior/extrudability, and heat transfer performance or thermal transport performance.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Use sci-mech-fluid-polishing to rewrite this Discussion sentence for International Journal of Mechanical Sciences: We prove that the excellent stress distribution is caused by the optimized structure, and our method is the best for all conditions.",
+      "expected_output": "A cautious rewritten Discussion sentence that removes first-person wording and overclaims such as prove, excellent, best, and all conditions. It should include reviewer-risk notes.",
+      "files": []
+    }
+  ]
+}
